@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Partner App</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">ugxpCuw7o2P1KuU3ZRGaMOSpxlx3xBVyR63Kw</string>
+</resources>

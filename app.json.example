@@ -1,0 +1,13 @@
+{
+  "name": "MedTransGoPartnerApp",
+  "displayName": "MedTransGo Partner",
+  "serverUrl": "https://mws.medtransgo.com",
+  "clientId": "6136129915ad670013145294",
+  "cognitoClientId": "5f73f2b7031b8fce854c42e2",
+  "serverUrl": "https://staging-mws.medtransgo.com",
+  "clientId": "612f203b473dc000139c4514",
+  "cognitoClientId": "5ef07b6eda57d20384712439",
+  "androidGoogleKey": "AIzaSyCXP78xTGgQT5RtTeaGGX6YWUEDinOV4Q0",
+  "iosGoogleKey": "AIzaSyBf4G3qQTDy6-DN6Tb9m6WzgYCW598EoxU"
+}
+    "@mauron85/react-native-background-geolocation": "^0.6.3",

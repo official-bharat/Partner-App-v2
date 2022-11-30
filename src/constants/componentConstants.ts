@@ -1,0 +1,54 @@
+export namespace ComponentConstants {
+  export const SPLASH_SCREEN_NAME = 'splash';
+  export const LOGIN_SCREEN_NAME = 'login';
+  export const SIGNUP_SCREEN_NAME = 'SignUp';
+  export const PERSONAL_INFORMATION_SCREEN_NAME = 'PersonalInformation';
+  export const QUESTIONNAIRE_SCREEN_NAME = 'Questionnaire';
+  export const CERTIFICATE_SCREEN_NAME = 'Certificate';
+  export const LANGUAGE_CERTIFICATE_SCREEN_NAME = 'LanguageCertificate';
+  export const FORGOT_PASSWORD_SCREEN_NAME = 'ForgotPassword';
+  export const VERIFY_OTP_SCREEN_NAME = 'VerifyOtp';
+  export const HOME_SCREEN_NAME = 'home';
+  export const SETTING_SCREEN_NAME = 'settings';
+  export const INTERPRETATION_SCREEN_NAME = 'interpretation';
+  export const INTERPRETATION_REQUEST_SCREEN_NAME = 'interpretationRequest';
+  export const COMPLETE_REQUEST_SCREEN_NAME = 'completeRequest';
+  export const CHANGE_PASSWORD_SCREEN_NAME = 'changePassword';
+  export const CMR_DETAILS_SCREEN_NAME = 'cmrdetails';
+  export const CMR_COMPLETE_SCREEN_NAME = 'cmrcomplete';
+  export const NEW_PASSWORD_SCREEN_NAME = 'newPassword';
+  export const PAYOUT_SCREEN_NAME = 'payout';
+  export const PAYOUT_DETAILS_SCREEN_NAME = 'payoutDetails';
+  export const TRANSPORTATION_SCREEN_NAME = 'transportation';
+  export const TRANSPORTATION_REQUEST_SCREEN_NAME = 'transportationRequest';
+  export const ASSIGN_DRIVER_SCREEN_NAME = 'assignDriver';
+  export const ACCEPT_REQUEST_SCREEN_NAME = 'acceptRequest';
+  export const GOOGLE_MAP_SCREEN_NAME = 'googleMap';
+  export const COMPLETE_TRIP_SCREEN_NAME = 'completeTrip';
+  export const GOOGLE_MAP_Android_SCREEN_NAME = 'googleMapAndroid';
+  export const ACCEPTED_ROUTES_SCREEN_NAME = 'acceptedRoutes';
+  export const COMPLETE_ROUTE_SCREEN_NAME = 'completeRoute';
+  export const DELIVERY_SCREEN_NAME = 'delivery';
+  export const DELIVERY_REQUEST_SCREEN_NAME = 'deliveryRequest';
+  export const COMPLETE_DELIVERY_REQUEST_SCREEN_NAME =
+    'completeDeliveryRequest';
+  export const ROUTE_DETAIL_SCREEN_NAME = 'routeDetails';
+  export const DELIVERY_DETAIL_SCREEN_NAME = 'deliveryDetails';
+
+  export const HOME_SCREEN_TITLE = 'Home';
+  export const SETTING_SCREEN_TITLE = 'Settings';
+  export const INTERPRETATION_SCREEN_TITLE = 'Interpretation';
+  export const INTERPRETATION_REQUEST_SCREEN_TITLE = 'Interpretation Request';
+  export const COMPLETE_REQUEST_SCREEN_TITLE = 'Complete Request';
+  export const CHANGE_PASSWORD_SCREEN_TITLE = 'Change Password';
+  export const PAYOUT_SCREEN_TITLE = 'Payout';
+  export const PAYOUT_DETAILS_SCREEN_TITLE = 'Payout Details';
+  export const TRANSPORTATION_SCREEN_TITLE = 'Transportation';
+  export const TRANSPORTATION_REQUEST_SCREEN_TITLE = 'Transportation Request';
+  export const ACCEPT_REQUEST_SCREEN_TITLE = 'Accept Request';
+  export const DELIVERY_SCREEN_TITLE = 'Delivery';
+  export const CMR_SCREEN_NAME = 'CMR';
+  export const CMR_SCREEN_TITLE = 'CMR';
+  export const CMR_DETAILS_SCREEN_TITLE = 'CMR Details';
+  export const COMPLETE_TRIP_SCREEN_TITLE = 'Complete Trip';
+}

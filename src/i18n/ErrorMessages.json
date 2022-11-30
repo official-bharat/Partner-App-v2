@@ -1,0 +1,16 @@
+{
+  "USER_ALREADY_EXISTS": "User is already registered",
+  "UNAUTHORIZED_REQUEST": "Unauthorized to access the services",
+  "NETWORK_ERROR": "Server is not available",
+  "ROUTE_NOT_FOUND": " Invalid HTTP Route",
+  "DB_WRITE_OPERATION_ERROR": "Internal server error. Please contact server admin",
+  "INVALID_ACCESS_CODE": "Access code is invalid",
+  "INVALID_PASSWORD": "Invalid Password",
+  "ERROR_UPDATE_RESOURCE": "Error while updating",
+  "FAILED_ADD_PAYMENT_SOURCE": "Error while adding payment source",
+  "FAILED_TO_AUTHORIZE_PAYMENT": "Error while authorizing the payment",
+  "REQUEST_ALREADY_ASSIGNED": "Request is already assigned",
+  "INVALID_CREDENTIALS": "Invalid Credentials",
+  "ROUTE_ALREADY_ACCEPTED": "Route already accepted",
+  "PERMISSION_DENIED": "Permission Denied"
+}
