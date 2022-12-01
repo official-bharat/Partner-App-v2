@@ -139,8 +139,8 @@ android {
         applicationId "com.medtransgopartnerapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 20
+        versionName "5"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
 
         if (isNewArchitectureEnabled()) {
@@ -305,9 +305,9 @@ task copyDownloadableDepsToLibs(type: Copy) {
 project.ext.vectoricons = [
     iconFontNames: [ 'MaterialIcons.ttf', 'MaterialCommunityIcons.ttf','AntDesign.ttf','Entypo.ttf','EvilIcons.ttf','Feather.ttf','FontAwesome.ttf','FontAwesome5_Brands.ttf','FontAwesome5_Regular.ttf','FontAwesome5_Solid.ttf','Foundation.ttf','Ionicons.ttf','Octicons.ttf','SimpleLineIcons.ttf','Zocial.ttf','Fontisto.ttf','FontAwesome5' ] // Name of the font files you want to copy
 ]
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); 
 apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
-apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 applyNativeModulesAppBuildGradle(project)
 
 def isNewArchitectureEnabled() {
